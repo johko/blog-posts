@@ -2,11 +2,11 @@
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/yUdvvxZQPY7_O3eJuiH45.png)
 
-This blog post is the first part of a little story that will introduce you to Vision-Language (Multimodal) models and related tasks.
+This blog post is the first part of a little story that will introduce you to Vision-Language models and related tasks.
 We will follow the detective Robot Holmes through a night full of murder, betrayal and envy in the bustling city of MLington.
 
 ## Intro
-It was a typical MLington day - cold, gray, rainy. Luckily the sun was setting and taking its light of the misery of this city. Robot Holmes entered his office and found the chief of police already waiting for him.
+Our story begins on a typical MLington day - cold, gray, rainy. Luckily the sun was setting and taking its light of the misery of this city. Robot Holmes entered his office and found the chief of police already waiting for him.
 
 That never is good news.
 
@@ -20,35 +20,35 @@ Old SAN - one of the people over in *Vision Language Village*. A reputable citiz
 Holmes sighed heavily, put on his hat and stepped out into the dark city streets of MLington.
 
 ## MLington
-You might have never heard of MLington, so let us take a little tour through some of its parts:
+You might have never heard of MLington, so let us take a little tour through Holmes' hometown:
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/47dLSYSXnKlCpI5eqS33G.png)
 
 **City of Science**
-Right a the core of MLington, the City of Science is the place where the scientists live and where they build their cathedrals for Machine Learning. Legend has it, that when a team of scientist loves there research very much, a new Machine Learning model is born. Now and then there might be an Ivory Tower popping up in these parts of town and falling to rubbles again soon after.
+Right at the core of MLington, the *City of Science* is the place where the scientists live and where they build their cathedrals for Machine Learning. Legend has it, that when a team of scientist loves their research very much, a new Machine Learning model is born. Now and then there might be an Ivory Tower popping up in these parts of town and falling to rubbles again soon after.
 
 The City of Science is separating two very old parts of the city.
 
 **Visionsworth**
-To the east you can find Visionworth, the place where Computer Vision has its home. From the old days of hand crafted filters all the way to the modern Vision Transformers. This part of town is well established and strong in its foundation.
+To the east you can find *Visionsworth*, the place where Computer Vision has its home. From the old days of hand crafted filters all the way to the modern Vision Transformers. This part of town is well established and strong in its foundation.
 
 **Languageshire**
-To the west of the City of Science you can find Languageshire - as you might guess this is the area where Natural Language Processing has its home. From the oldest symbolic NLP days to today’s Large Language Models, this part of town has stood the test of time and has been leading the trends in MLington recently.
+To the west of the City of Science you can find *Languageshire* - as you might guess this is the area where Natural Language Processing is at home. From the oldest symbolic NLP days to today’s Large Language Models, this part of town has stood the test of time and has been setting the trends in MLington recently.
 
 **Vision-Language Village** (ViLaVi)
-On the other side of the river we find a smaller settlement - Vision Language Village. Connected to both Languageshire and Visionsworth. This area has become a melting pot of ideas from both parts of town. It has been growing at a tremendous speed in the last years and it seems like the influx of ever new citizens won’t stop that soon. This brings a lot of life to its streets but, unfortunately for Robot Holmes, also death.
+On the other side of the river we find a smaller settlement - Vision Language Village. Connected to both Languageshire and Visionsworth. This area has become a melting pot of ideas from Visionsworth and Languageshire. It has been growing at a tremendous speed in the last years and it seems like the influx of ever new citizens won’t stop that soon. This brings a lot of life to its streets but, unfortunately for Robot Holmes, also death.
 
 ## Vision-Language Tasks
-Before Holmes sets foot into the Village, he gathers intel on some of the most popular services offered in these streets:
+Before Holmes sets foot into the Village, he wants to know what is going on in its streets and which kind of tasks are performed there. So he decides to gather intel on some of the most popular services offered in ViLaVi:
 
 **Image Captioning**
 
-Image Captioning is one of the oldest services offered in the streets of ViLaVi. Some people also refer to is as *image-to-text*. In essence the task is the same - given an image, the model is supposed to come up with a descriptive text for it.
+Some of the oldest workshops in the village offer a service called *Image Captioning*. Some people also refer to is as *image-to-text*. In essence the task is the same - given an image, the model is supposed to come up with a descriptive text for it. The quality of this service has long been not much more than okay, but with recent newcomers like [LLaVA](https://huggingface.co/spaces/badayvedat/LLaVA) and [InstructBLIP](https://huggingface.co/spaces/library-samples/InstructBLIP), the image captions have reached a new level of detail.
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/mPzG7osMLjljZFyXxBnPI.png)
 
 **Image-Text Retrieval**
 
-Given a set of images and a text (prompt), find the best matching image for the prompt from the given set. At first glance this task does not seem to be very helpful, but it is worth giving it a second glance. E.g. Image-Text Retrieval can be a very powerful tool for multimodal searches. If you have a big amount of images and want to filter them with a free text prompt, this is one way to do it.
+Holmes stumbles upon another Shop, filled with boxes of images. Asking the shopkeeper what kind of services he offers, he Given a set of images and a text (prompt), find the best matching image for the prompt from the given set. At first glance this task does not seem to be very helpful, but it is worth giving it a second glance. E.g. Image-Text Retrieval can be a very powerful tool for multimodal searches. If you have a big amount of images and want to filter them with a free text prompt, this is one way to do it.
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/5OJ8G40S3n8i7n7Tgsvt-.png)
 
