@@ -38,17 +38,36 @@ To the west of the City of Science you can find *Languageshire* - as you might g
 On the other side of the river we find a smaller settlement - Vision Language Village. Connected to both Languageshire and Visionsworth. This area has become a melting pot of ideas from Visionsworth and Languageshire. It has been growing at a tremendous speed in the last years and it seems like the influx of ever new citizens won’t stop that soon. This brings a lot of life to its streets but, unfortunately for Robot Holmes, also death.
 
 ## Vision-Language Tasks
-Before Holmes sets foot into the Village, he wants to know what is going on in its streets and which kind of tasks are performed there. So he decides to gather intel on some of the most popular services offered in ViLaVi:
+Before Holmes delves deeper into the societal networks of the Village, he wants to know what is going on in its streets and which kind of tasks are performed there. So he decides to gather intel on some of the most popular services offered in ViLaVi:
 
 **Image Captioning**
 
-Some of the oldest workshops in the village offer a service called *Image Captioning*. Some people also refer to is as *image-to-text*. In essence the task is the same - given an image, the model is supposed to come up with a descriptive text for it. The quality of this service has long been not much more than okay, but with recent newcomers like [LLaVA](https://huggingface.co/spaces/badayvedat/LLaVA) and [InstructBLIP](https://huggingface.co/spaces/library-samples/InstructBLIP), the image captions have reached a new level of detail.
+The first shop Holmes entered had high windows which let a lot of light into a rather small room with an unusually high ceiling. At the walls there were pictures of all sorts - painting, photographs, sketches, prints. Below every single one was a small white sheet with text written on it.
+
+Holmes turned to the only person in the shop besides him - a woman standing on a sturdy ladder. She was in the process of exchanging one of the pictures on the wall and winced a little when Holmes began to speak.
+
+"What service do you offer here?", he asked bluntly. "I'm an image captioner sir - I caption images. Some also call it Text-to-Image", she replied with a cheerful voice. "People bring me their images and I write down what can be seen on them. I inherited this shop from my father. You can still see some of his work over there. It was never picked up." Holmes looked around to where the woman pointed and saw some small images with even smaller notepads below. "Not a man of many words it seems", Holmes said. "Well, the old times sir. A few words were enough then, but nowadays the customers want more and more detailed descriptions."
+
+"May I ask for your names and can you recommend some other good captioners?", Holmes inquired.
+"Of course, I go by [LLaVA](https://huggingface.co/spaces/badayvedat/LLaVA) and one of my best colleagues is [InstructBLIP](https://huggingface.co/spaces/library-samples/InstructBLIP). Feel free to pay him a visit when you have some time."
+
+Holmes thanked her, said his farewells and stepped back out into the dark city streets.
+
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/mPzG7osMLjljZFyXxBnPI.png)
 
 **Image-Text Retrieval**
 
-Holmes stumbles upon another Shop, filled with boxes of images. Asking the shopkeeper what kind of services he offers, he Given a set of images and a text (prompt), find the best matching image for the prompt from the given set. At first glance this task does not seem to be very helpful, but it is worth giving it a second glance. E.g. Image-Text Retrieval can be a very powerful tool for multimodal searches. If you have a big amount of images and want to filter them with a free text prompt, this is one way to do it.
+Just around the corner Holmes enters another shop, filled with boxes of images. The boxes were everywhere, stacked all along the walls and even on the floor towers of boxes were leaning onto one another. Holmes carefully stepped around them, looking for the shop owner. He heard a mumbling from somewhere behind an exceptionally big cardboard box and found an old man deeply lost in thought looking at small images and muttering to himself.
+
+"What service do you offer?", Holmes asked a little to loud and was expecting the shopkeeper to wince at this sudden intruder, like in the shop before.
+
+The old man stopped mumbling. "Name an animal", he suddenly said in the direction of Holmes.
+"Elephant", Holmes said, slightly bewildered and curious what would happen next. At lightning speed, the shopkeeper picks a bunch of images from the box and hands them to Holmes - all showing elephants.
+
+"That is what I do", the vendor says, "I match images and text. Give me any prompt and a set of images and I will tell you how good the images fit your request. Image-Text Retrieval is what we call it in the business." The thing that Holmes found most interesting about this, was the speed at which the shopkeeper could pick the right images among hundreds, if not thousands of others.
+
+"What is your name and are there others in your business?", Holmes asked him. "I go by the name of [ALBEF]()
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/5OJ8G40S3n8i7n7Tgsvt-.png)
 
