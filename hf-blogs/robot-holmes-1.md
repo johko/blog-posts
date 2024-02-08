@@ -2,8 +2,8 @@
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/yUdvvxZQPY7_O3eJuiH45.png)
 
-This blog post is the first part of a little story that will introduce you to Vision-Language models and related tasks.
-We will follow the detective Robot Holmes through a night full of murder, betrayal and envy in the bustling city of MLington.
+*This blog post is the first part of a little story that will introduce you to Vision-Language models and related tasks.
+We will follow the detective Robot Holmes through a night full of murder, betrayal and envy in the bustling city of MLington.*
 
 ## Intro
 Our story begins on a typical MLington day - cold, gray, rainy. Luckily the sun was setting and taking its light of the misery of this city. Robot Holmes entered his office and found the chief of police already waiting for him.
@@ -12,7 +12,7 @@ That never is good news.
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/Fw-D-aPntUjNpWpQN-acg.png)
 
-*“Its [Old SAN](https://arxiv.org/pdf/1511.02274.pdf), he has been found dead inside his devastated workshop.”*
+*“It's [Old SAN](https://arxiv.org/pdf/1511.02274.pdf), he has been found dead inside his devastated workshop.”*
 Old SAN - one of the people over in *Vision Language Village*. A reputable citizen - has been there for ages, basically started the whole part of town with some other guys. There were rumours of him being some sort of leader in the district’s community. Now he’s dead and he is not the first one in the Village recently.
 *“There is something going on on the other side of the river Holmes”*, the chief proclaimed.
 *“Almost every other week an established citizen is murdered. We have a Murder Series on our hands and no clue. I want you to find out what’s going on over there.”*
@@ -44,12 +44,12 @@ Before Holmes delves deeper into the societal networks of the Village, he wants 
 
 The first shop Holmes entered had high windows which let a lot of light into a rather small room with an unusually high ceiling. At the walls there were pictures of all sorts - painting, photographs, sketches, prints. Below every single one was a small white sheet with text written on it.
 
-Holmes turned to the only person in the shop besides him - a woman standing on a sturdy ladder. She was in the process of exchanging one of the pictures on the wall and winced a little when Holmes began to speak.
+Holmes turned to the only person in the shop besides him - a model standing on a sturdy ladder. She was in the process of exchanging one of the pictures on the wall and winced a little when Holmes began to speak.
 
 "What service do you offer here?", he asked bluntly. "I'm an image captioner sir - I caption images. Some also call it **Text-to-Image**", she replied with a cheerful voice. "People bring me their images and I write down what can be seen on them. I inherited this shop from my father. You can still see some of his work over there. It was never picked up." Holmes looked around to where the woman pointed and saw some small images with even smaller notepads below. "Not a man of many words it seems", Holmes said. "Well, the old times sir. A few words were enough then, but nowadays the customers want more and more detailed descriptions."
 
-"May I ask for your names and can you recommend some other good captioners?", Holmes inquired.
-"Of course, I go by [LLaVA](https://huggingface.co/spaces/badayvedat/LLaVA) and one of my best colleagues is [InstructBLIP](https://huggingface.co/spaces/library-samples/InstructBLIP). Feel free to pay him a visit when you have some time."
+"May I ask for your name and can you recommend some other good captioners or models in the business?", Holmes inquired.
+"Of course, I go by [InstructBLIP](https://huggingface.co/docs/transformers/model_doc/instructblip). One of my best colleagues, who is doing a slightly different kind of Text-to-Image is [MGP-STR](https://huggingface.co/docs/transformers/model_doc/mgp-str#mgp-str). I know it is hard to pronounce, but he is really good at finding text in images. Feel free to pay him a visit when you have some time."
 
 Holmes thanked her, said his farewells and stepped back out into the dark city streets.
 
@@ -58,14 +58,14 @@ Holmes thanked her, said his farewells and stepped back out into the dark city s
 
 **Image-Text Retrieval**
 
-Just around the corner Holmes enters another shop, filled with boxes of images. The boxes were everywhere, stacked all along the walls and even on the floor towers of boxes were leaning onto one another. Holmes carefully stepped around them, looking for the shop owner. He heard a mumbling from somewhere behind an exceptionally big cardboard box and found an old man deeply lost in thought looking at small images and muttering to himself.
+Just around the corner Holmes enters another shop, filled with boxes of images. The boxes were everywhere, stacked all along the walls and even on the floor towers of boxes were leaning onto one another. Holmes carefully stepped around them, looking for the shop owner. He heard a mumbling from somewhere behind an exceptionally big cardboard box and found an old model deeply lost in thought looking at small images and muttering to himself.
 
-"What service do you offer?", Holmes asked a little to loud and was expecting the shopkeeper to wince at this sudden intruder, like in the shop before.
+"What service do you offer?", Holmes asked a little too loud and was expecting the shopkeeper to wince at this sudden intruder, like in the shop before.
 
-The old man stopped mumbling. "Name an animal", he suddenly said in the direction of Holmes.
+The old model stopped mumbling. "Name an animal", he suddenly said in the direction of Holmes, without looking up.
 "Elephant", Holmes said, slightly bewildered and curious what would happen next. At lightning speed, the shopkeeper picks a bunch of images from the box and hands them to Holmes - all showing elephants.
 
-"That is what I do", the vendor says, "I match images and text. Give me any prompt and a set of images and I will tell you how good the images fit your request. **Image-Text Retrieval** (ITR) is what we call it in the business." The thing that Holmes found most interesting about this, was the speed at which the shopkeeper could pick the right images among hundreds, if not thousands of others.
+"That is what I do", the model says, "I match images and text. Give me any prompt and a set of images and I will tell you how good the images fit your request. **Image-Text Retrieval** (ITR) is what we call it in the business." The thing that Holmes found most interesting about this, was the speed at which the shopkeeper could pick the right images among hundreds, if not thousands of others.
 
 "What is your name and are there others in your business?", Holmes asked him. "I go by the name of [ALIGN](https://huggingface.co/docs/transformers/model_doc/align). And there are others of course, many of us actually learned multiple trades and offer ITR among them, like my colleague [FLAVA](https://huggingface.co/docs/transformers/model_doc/flava)."
 
@@ -74,11 +74,11 @@ Holmes thanked the man and was on his way again.
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/5OJ8G40S3n8i7n7Tgsvt-.png)
 
 **Visual Question Answering**
-AS Holmes walked on through the dark city streets, a big wooden sign caught his eyes. It was shaped like a big red question mark and hung directly in front of one of the shops. 'Intriguing enough', he thought and opened the door of the shop.
+As Holmes walked on through the dark city streets, a big wooden sign caught his eye. It was shaped like a big red question mark and hung directly in front of one of the shops. 'Intriguing enough', he thought and opened the door of the shop.
 
-"Yes, please, what do you want to know sir?", a high and nervous voice asked quickly even before Holmes' foot was inside of the shop.
+"Yes, please, what do you want to know sir?", a high-pitched and nervous voice asked quickly even before Holmes' foot was inside of the shop.
 
-"I'm just having a look", he answered, standing in the doorframe and trying to hide his bafflement at the sudden approach.
+"I'm just having a look", he answered, coming to a halt in the doorframe and trying to hide his bafflement at the sudden approach.
 "There is no 'Having a look' here sir. People come with an image or a document, ask me questions about it, I answer them, they leave sir. The only one having a look is me sir. So what is your question?"
 
 Now Holmes could see a very slim figure standing behind a big counter, nervously rubbing his hands and impatiently waiting for an answer.
@@ -94,19 +94,19 @@ Now Holmes could see a very slim figure standing behind a big counter, nervously
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/sw0MFGUQcA-B_3FZPrf2Y.png)
 
 **Visual Grounding**
-Robot Holmes was getting to terms with the face that the inhabitatns of Vision-Language Village all seemed to be quite special characters. He had the feeling everyone here could be a murderer or no one. At the same time he sensed a strong bond in the local community.
+Robot Holmes was getting to terms with the fact that the inhabitants of Vision-Language Village all seemed to be quite special characters. He had the feeling everyone here could be a murderer or no one. At the same time he sensed a strong bond in the local community.
 
 As he was giving this some thought, he came to halt in front of a shop window, with a puzzled look on his face. There were empty frames in all kinds of colors hanging, standing and laying in the shop window.
 
 He left out a heavy sigh, knowing that he had to go in and find out what this was all about. "Here we go again", he quietly said to himself and stepped inside the shop.
 
-This time he was not greeted directly, a woman was bent over a big workbench with some kind of magnifying goggles sitting on her nose.
+This time he was not greeted directly. A woman stood bent over a big workbench with some kind of magnifying goggles sitting on her nose.
 
-Holmes let his gaze roam around the shop and saw what seemed like a million compartments stretching along the wall with the empty frames he also saw in the window.
+Holmes let his gaze roam around the shop and saw what seemed like a million compartments stretching along the walls, filled with the empty frames he also saw in the window.
 
-"Perfect", he heard the woman say. Happily she reached for a big bottle which must contain glue of some kind he thought, as she was using it to fixate the frame on an underlying image.
+"Perfect", he suddenly heard the woman say. Happily she reached for a big bottle which must contain glue of some kind he thought, as she was using it to fixate the frame to an underlying image.
 
-"Good evening. What are you doing there?", Holmes asked her when it seemed like she was done.
+"Good evening. What are you doing there?", Holmes decided to try the polite tone this time and asked her when it seemed like she was done.
 "Oh, hello there. I just marked this little street lamp here with this neat frame. Isn't it beautiful?", she answered, showing of her work with a certain glee.
 "Well, yes", Holmes agreed, "but why are you doing this?"
 
@@ -115,14 +115,17 @@ Holmes let his gaze roam around the shop and saw what seemed like a million comp
 "Interesting and are you the only one offering this service around here?", Holmes asked in an investigative manner.
 
 "I wish", she said, "then business would be thriving. But there are many colleagues, more by the day I fear.
-Visual Grounding is, to be exact, not a single service or task. The term contains many sub-tasks. Take [CLIPSeg](https://huggingface.co/docs/transformers/model_doc/clipseg) e.g., she does work with frames, but gives you masks you can lay over the image and mark the object you asked her to find."
+Visual Grounding is, to be exact, not a single service or task. The term contains many sub-tasks. Take [CLIPSeg](https://huggingface.co/docs/transformers/model_doc/clipseg) for example. She does not work with frames, but gives you masks you can lay over the image and mark the object you asked her to find."
 
 Holmes was impressed, thanked her, took his notes and once again stepped back into the damp city streets.
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/13v6P9jWD4GYVygIqbQgR.png)
 
 **Text to Image**
-He felt like he had a good grasps of some popular service offered in these streets now, but he already knew that the most popular task in recent time in ViLaVi has been text-to-image. Given a text prompt, the models offering this service create an image for you, that tries to depict your prompt description as good as possible
+He felt like he had a good grasp of some popular services offered in these streets now, but he already knew that the most popular task in recent time in ViLaVi has been text-to-image. 
+
+Given a text prompt, the models offering this service create an image for you, that tries to depict your prompt description as good as possible.
+
 Actually models in MLington offering this service have started a whole new part of town, as they outgrew ViLaVi and started to become a whole ecosystem for themselves. They now reside in *Diffuserton*, which is a part of town for another story. Robot Holmes decided to not set foot in there and instead focus on the current citizens populating the streets of MLington.
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/4J6hdvBtSPLBAoEMFK4Ft.png)
@@ -132,13 +135,14 @@ Actually models in MLington offering this service have started a whole new part 
 
 Being a seasoned detective, Holmes knew that the first place you investigate is the murder scene. So he went to the workshop of Old SAN, which he found in a devastated state. Papers and images were scattered everywhere. It seemed like Old SAN did not go down without a fight.
 
-Usually these crime scenes are rather hard for finding traces, as you never know what could be a clue and what is just a random arrangement of accidentally scattered material.
+Usually these kind of crime scenes are rather hard for finding traces, as you never know what could be a clue and what is just a random arrangement of accidentally scattered material.
 
 SAN operated an Image Question Answering service, that is what Holmes read in the case record. He had a set of glasses, indispensable at his age, which were broken and scattered all over the floor.
 
-After some time, Holmes came to the conclusion that there was nothing helpful inside this shop that could give him a first lead. He faced the open door, to leave, when he suddenly saw something stuck to the underside of the door - a piece of red garment. Holmes crouched and picked it up.
+After some time of rummaging, Holmes came to the conclusion that there was nothing helpful inside this shop that could give him a first lead. He faced the open door, to leave, when he suddenly saw something stuck to the underside of the door - a piece of red garment. Holmes crouched and picked it up.
 
-Now, a piece of red garment might not look like much, but it is better then nothing. And as it happens Holmes earlier heard about one particular resident of ViLaVi who is infamous for her taste in red clothes. Holmes set off to see her and ask her some uncomfortable questions.
+A piece of red cloth might not look like much, but it is better then nothing. And as it happens Holmes earlier heard about one particular resident of ViLaVi who is infamous for her taste in red clothes. Holmes set off to see her and ask her some uncomfortable questions.
 
+![image/png](https://cdn-uploads.huggingface.co/production/uploads/607feb037c746d01ecb19180/-qI3xhMujBQLADSdc3JkL.png)
 
 *Thank you for reading. This is where the first part of the story ends. The next one will be released soon.*
